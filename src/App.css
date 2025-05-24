@@ -1,0 +1,32 @@
+
+#root,
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Jost", "Poppins", sans-serif;
+  background-color: #f9fafb;
+}
+
+
+.navbar {
+  background-color: #0077ff;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
